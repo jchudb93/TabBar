@@ -21,11 +21,18 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final  String tag = "MainActivity";
+
+    private SectionsPageAdapter mSectionsPageAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+    }
+    private void setupViewPager(ViewPager viewPager) {
+        
     }
 
 }
